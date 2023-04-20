@@ -420,7 +420,7 @@ public class MainActivity extends Activity implements PrivacyProtocolDialog.Resp
                 call.enqueue(new Callback() {
                     @Override
                     public void onFailure(@NonNull Call call, @NonNull IOException e) {
-                        skipError(urlBean.getIpUrl(),"加载失败");
+                        skipError(urlBean.getIpUrl(), "加载失败");
                     }
 
                     @Override
@@ -440,7 +440,7 @@ public class MainActivity extends Activity implements PrivacyProtocolDialog.Resp
                                 }
                             });
                         } catch (Exception e) {
-                            skipError(urlBean.getIpUrl(),"配置错误");
+                            skipError(urlBean.getIpUrl(), "配置错误");
                         }
                     }
                 });
@@ -641,7 +641,7 @@ public class MainActivity extends Activity implements PrivacyProtocolDialog.Resp
     /**
      * 跳转错误页
      */
-    public void skipError(String error,String msg) {
+    public void skipError(String error, String msg) {
         if (null == mLayoutError || null == mBtnReload) {
             return;
         }
@@ -650,7 +650,7 @@ public class MainActivity extends Activity implements PrivacyProtocolDialog.Resp
             public void run() {
                 mLayoutError.setVisibility(View.VISIBLE);
                 tvErrorJson.setText(error);
-                mBtnReload.setText(msg+",点击重试");
+                mBtnReload.setText(msg + ",点击重试");
                 mBtnReload.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
