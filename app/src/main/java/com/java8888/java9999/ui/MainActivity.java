@@ -377,11 +377,9 @@ public class MainActivity extends Activity implements PrivacyProtocolDialog.Resp
                     UrlBean urlBean = AssetsUtils.getUrlBeanFromAssets(MainActivity.this);
                     if (urlBean != null) {
                         if (!TextUtils.isEmpty(urlBean.getFloatUrl())) {
-                            //skipLocalBrowser(urlBean.getFloatUrl());
                             if (bValue) {
                                 kv.encode("bool", false);
                                 bValue = kv.decodeBool("bool");
-                                //skipLocalBrowser(mFloatUrl);
                                 loadUrl(urlBean.getFloatUrl());
                                 floatingButton.setBackgroundResource(R.mipmap.back);
                             } else {
@@ -472,16 +470,7 @@ public class MainActivity extends Activity implements PrivacyProtocolDialog.Resp
         });
     }
 
-    /**
-     * 跳转到浏览器
-     */
-    public void skipLocalBrowser(String url) {
-        Intent intent = new Intent();
-        intent.setAction("android.intent.action.VIEW");
-        Uri content_url = Uri.parse(url);
-        intent.setData(content_url);
-        MainActivity.this.startActivity(intent);
-    }
+
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
