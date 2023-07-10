@@ -33,6 +33,7 @@
             android:screenOrientation="portrait"
             android:hardwareAccelerated="true"
             android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:windowSoftInputMode="adjustResize"
             android:theme="@style/AppThemeNoBackground">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

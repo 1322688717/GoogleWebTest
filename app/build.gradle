@@ -15,7 +15,26 @@ android {
 //            abiFilters "armeabi", "armeabi-v7a", "x86"
             abiFilters "armeabi", "armeabi-v7a", "arm64-v8a"
         }
+        archivesBaseName = "WebTest"
     }
+
+    buildTypes {
+        release {
+            //只需将false改为true即可启用混淆
+            minifyEnabled true
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            //只需将false改为true即可启用混淆
+            minifyEnabled true
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -50,11 +69,11 @@ dependencies {
     // Gson 解析容错
     implementation 'com.github.getActivity:GsonFactory:5.2'
     // Json 解析框架
-    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.code.gson:gson:2.10.1'
     // 权限请求框架
-    implementation 'com.github.getActivity:XXPermissions:16.8'
+    implementation 'com.github.getActivity:XXPermissions:18.2'
     //核心必须依赖
-    implementation 'com.scwang.smart:refresh-layout-kernel:2.0.1'
+    implementation 'com.scwang.smart:refresh-layout-kernel:2.0.3'
     implementation 'com.scwang.smart:refresh-header-classics:2.0.1'
     //  okio
     implementation("com.squareup.okio:okio:3.0.0")
