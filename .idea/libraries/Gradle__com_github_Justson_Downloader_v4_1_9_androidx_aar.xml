@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.Justson:Downloader:v4.1.9-androidx@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbaee43f479dd3c6db7fad6c17ac92ee/jetified-Downloader-v4.1.9-androidx/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5db5806a3bb936eb6d237a964b2c764f/jetified-Downloader-v4.1.9-androidx/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbaee43f479dd3c6db7fad6c17ac92ee/jetified-Downloader-v4.1.9-androidx/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbaee43f479dd3c6db7fad6c17ac92ee/jetified-Downloader-v4.1.9-androidx/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dbaee43f479dd3c6db7fad6c17ac92ee/jetified-Downloader-v4.1.9-androidx/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5db5806a3bb936eb6d237a964b2c764f/jetified-Downloader-v4.1.9-androidx/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5db5806a3bb936eb6d237a964b2c764f/jetified-Downloader-v4.1.9-androidx/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5db5806a3bb936eb6d237a964b2c764f/jetified-Downloader-v4.1.9-androidx/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

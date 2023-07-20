@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.Justson.AgentWeb:agentweb-filechooser:v4.1.9-androidx@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b200c8b21de45d37861224d709429d43/jetified-agentweb-filechooser-v4.1.9-androidx/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b200c8b21de45d37861224d709429d43/jetified-agentweb-filechooser-v4.1.9-androidx/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/879af5be683b8d84597a5d46603539dd/jetified-agentweb-filechooser-v4.1.9-androidx/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/879af5be683b8d84597a5d46603539dd/jetified-agentweb-filechooser-v4.1.9-androidx/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
